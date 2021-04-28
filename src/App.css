@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 .navbar {
   background: #ffcdd2;
   padding: 15px;
@@ -27,6 +30,27 @@
   color: white;
   border-radius: 50%;
 }
+.add-form {
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.add-input {
+  width: 320px;
+  height: 30px;
+  font-size: 1rem;
+}
+.add-button {
+  margin-left: 10px;
+  background: #f06292;
+  width: 50px;
+  height: 30px;
+  border-radius: 5px;
+  color: white;
+}
+.add-button:hover {
+  opacity: 0.8;
+}
+
 button {
   outline: none;
   border: 0;
