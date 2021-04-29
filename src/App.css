@@ -46,6 +46,7 @@
   height: 30px;
   border-radius: 5px;
   color: white;
+  font-size: 1rem;
 }
 .add-button:hover {
   opacity: 0.8;
@@ -94,4 +95,17 @@ button {
 
 .habit-delete {
   color: #ce93d8;
+}
+.reset-button {
+  margin-top: 10px;
+  margin-left: 10px;
+  background: #ce93d8;
+  width: 80px;
+  height: 30px;
+  border-radius: 5px;
+  color: white;
+  font-size: 1rem;
+}
+.reset-button:hover {
+  opacity: 0.8;
 }
